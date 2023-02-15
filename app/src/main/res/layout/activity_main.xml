@@ -27,7 +27,7 @@
                 android:text="LILA"
                 android:textColor="@color/white"
                 android:textSize="48dp"
-                android:fontFamily="@font/Zephyr"
+                android:fontFamily="@font/zephyr"
 
 
             />
@@ -61,7 +61,7 @@
 
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:fontFamily="@font/Helbrushica"
+                    android:fontFamily="@font/helbrushica"
                     android:textSize="22dp"
                     />
 
@@ -75,7 +75,7 @@
 
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:fontFamily="@font/Helbrushica"
+                    android:fontFamily="@font/helbrushica"
                     android:textSize="16dp"
                     />
             </LinearLayout>
@@ -104,7 +104,7 @@
 
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:fontFamily="@font/Helbrushica"
+                    android:fontFamily="@font/helbrushica"
                     android:textSize="22dp"
                     />
 
@@ -118,7 +118,7 @@
 
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:fontFamily="@font/Helbrushica"
+                    android:fontFamily="@font/helbrushica"
                     android:textSize="16dp"
                     />
 
@@ -151,7 +151,7 @@
 
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:fontFamily="@font/Helbrushica"
+                    android:fontFamily="@font/helbrushica"
                     android:textSize="22dp"
                     />
 
@@ -165,7 +165,7 @@
 
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:fontFamily="@font/Helbrushica"
+                    android:fontFamily="@font/helbrushica"
                     android:textSize="16dp"
                     />
             </LinearLayout>
@@ -193,7 +193,7 @@
 
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:fontFamily="@font/Helbrushica"
+                    android:fontFamily="@font/helbrushica"
                     android:textSize="22dp"
                     />
 
@@ -207,7 +207,7 @@
 
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:fontFamily="@font/Helbrushica"
+                    android:fontFamily="@font/helbrushica"
                     android:textSize="16dp"
                     />
 
@@ -240,7 +240,7 @@
 
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:fontFamily="@font/Helbrushica"
+                    android:fontFamily="@font/helbrushica"
                     android:textSize="22dp"
                     />
 
@@ -254,7 +254,7 @@
 
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:fontFamily="@font/Helbrushica"
+                    android:fontFamily="@font/helbrushica"
                     android:textSize="16dp"
                     />
             </LinearLayout>
@@ -282,7 +282,7 @@
 
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:fontFamily="@font/Helbrushica"
+                    android:fontFamily="@font/helbrushica"
                     android:textSize="22dp"
                     />
 
@@ -296,7 +296,7 @@
 
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:fontFamily="@font/Helbrushica"
+                    android:fontFamily="@font/helbrushica"
                     android:textSize="16dp"
                     />
 
@@ -314,7 +314,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:fontFamily="@font/Helbrushica"
+                android:fontFamily="@font/helbrushica"
                 android:textSize="16dp"
                 />
 
