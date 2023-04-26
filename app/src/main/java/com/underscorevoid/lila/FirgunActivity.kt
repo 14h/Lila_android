@@ -9,3 +9,7 @@ class FirgunActivity: AppCompatActivity() {
         setContentView(R.layout.firgun)
     }
 }
+
+
+
+// git change.
