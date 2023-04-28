@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">Lila</string>
-    <string name="firgun_text">Firgun is a collection of beautiful questions designed to present to anyone, any place,
-        anytime.
-        Best served with intention to friends old and new, lovers, family members or without
-        \nwarning to strangers ou like the look of on the train..
 
-                \n  \n              ...ready when you are..</string>
+    //Firgun strings
+    <string name="firgun_1">Firgun is a collection of beautiful questions designed to present to anyone, any place anytime.\nBest served with intention to friends old and new, lovers, family members or without warning to strangers ou like the look of on \nthe train..</string>
+    <string name="firgun_2">...ready when you are..</string>
+    <string name="firgun_3">How open do you want to be?</string>
+    <string name="firgun_4">Timer</string>
 
 </resources>
+

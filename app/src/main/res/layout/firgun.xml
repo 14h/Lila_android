@@ -8,12 +8,16 @@
     android:background="@color/black"
     tools:context=".MainActivity"
     >
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp">
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="100dp"
+            android:layout_marginTop="40dip"
             android:layout_marginEnd="4dp"
             android:layout_weight="1"
             android:fontFamily="@font/zephyr"
@@ -22,39 +26,105 @@
             android:text="FIRGUN"
             android:textColor="@color/white"
             android:textSize="48dp"
-            tools:ignore="MissingConstraints">
+            tools:ignore="MissingConstraints"
+            />
 
-        </TextView>
     </LinearLayout>
 
     <TextView
         android:layout_width="412dp"
-        android:layout_height="178dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dip"
         android:fontFamily="@font/helbrushica"
         android:padding="15dp"
-        android:text="@string/firgun_text"
+        android:text="@string/firgun_1"
         android:textColor="@color/white"
         android:textSize="20dp"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-2dp"
         tools:layout_editor_absoluteY="158dp"
-        tools:ignore="MissingConstraints" />
+        />
+    <TextView
+        android:layout_width="412dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/helbrushica"
+        android:padding="15dp"
+        android:text="@string/firgun_2"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:gravity="center"
+       />
 
     <LinearLayout
         android:id="@+id/firgun_slider"
-        android:layout_width="match_parent"
+        android:layout_width="411dp"
         android:layout_height="100dp"
-        android:orientation="horizontal">
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="30dip">
+
+        <TextView
+            android:layout_width="412dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/helbrushica"
+            android:padding="15dp"
+            android:text="@string/firgun_3"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+
         <SeekBar
             android:id="@+id/seek_bar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
             android:max="100"
             android:progress="50"
+            android:progressTint="@android:color/white"
             android:thumbTint="@android:color/white"
-            android:progressTint="@android:color/white"/>
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/helbrushica"
+        android:padding="15dp"
+        android:text="@string/firgun_4"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        />
+
+    <Switch
+        android:id="@+id/my_switch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+       />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/firgun_begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Begin"
+        android:textColor="@color/black"
+        android:background="@drawable/my_button_background"/>
+
     </LinearLayout>
 
 </LinearLayout>
-
-
-

@@ -25,7 +25,8 @@
         </activity>
 
 
-        <activity android:name=".FirgunActivity"></activity>>
+        <activity android:name=".FirgunActivity" />
+        <activity android:name=".Firgun1Activity" />
     </application>
 
 </manifest>

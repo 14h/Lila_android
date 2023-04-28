@@ -1,27 +1,29 @@
 package com.underscorevoid.lila
 
+
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import android.widget.SeekBar
 
 
 class FirgunActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.firgun)
+
+        val firgunBeginButton = findViewById<Button>(R.id.firgun_begin)
+        firgunBeginButton.setOnClickListener {
+            val intent = Intent(this, Firgun1Activity::class.java)
+            startActivity(intent)
+        }
     }
 }
-class MyActivity : AppCompatActivity() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.firgun)
 
-        val slider = SeekBar(this)
-        // Customize the slider...
-//        firgun_slider.addView(slider)
-    }
-}
+
+
+
 
 
 
